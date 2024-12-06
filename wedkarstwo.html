@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wędkarstwo - Moje Hobby</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src=skrypt.js defer></script>
+</head>
+<body>
+    <header>
+        <h1>🐟Wędkarstwo moje Hobby🐟</h1>
+    </header>
+
+    <nav>
+        <a href="#owedkarstwie">O wędkarstwie</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#polecanesklepy">Polecane Sklepy</a>
+    </nav>
+
+    <main>
+        <section id="owedkarstwie">
+            <h2>O Wędkarstwie</h2>
+            <button id="moreInfoBtn" onclick="informacje()">Więcej informacji o Wędkarstwie</button>
+            <p id="extraInfo" style="display: none;">Jaja</p>
+        </section>
+
+        <section id="galeria-ramka">
+            <h2>Galeria</h2>
+            <div class="ramka">
+                <p>Galeria zdjęć</p>
+                <button onclick="dogalerii()">Przejdź do Galerii</button>
+            </div>
+        </section>
+
+        <section id="polecanesklepy">
+            <h2>Polecane Sklepy</h2>
+            <p>Najlepsze sklepy Wędkarskie</p>
+            <ul>
+                <li><a href="https://sklepwedkarski.pl/">Pierwszy sklep</a></li>
+                <li><a href="https://www.wedkarski.com/">Drugi sklep</a></li>
+                <li><a href="https://www.fishing-mart.com.pl/pl2">Trzeci sklep</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

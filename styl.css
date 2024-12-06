@@ -1,0 +1,79 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    margin: 0;  
+    padding: 0;
+}
+
+header
+{
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+}
+
+nav
+{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+section
+{
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+#galeria-ramka
+{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.ramka
+{
+    border: 2px solid darkolivegreen;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.ramka p
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.ramka button
+{
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ramka button:hover{
+    background: darkgreen;
+}
